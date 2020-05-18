@@ -82,7 +82,6 @@ def setupPage():
                 time.sleep(2)
                 win.close()
 
-
 #swap any two cups in any position 
 def swapCups(cup1, cup2):
     cup1XStart = cup1.getCenter().getX()        #constants so they dont change during our math 
@@ -96,6 +95,5 @@ def swapCups(cup1, cup2):
     time.sleep(.1)
     cup2.move((cup1XStart - cup2XStart)/2, 75) 
     time.sleep(.75)
-
 
 setupPage()
